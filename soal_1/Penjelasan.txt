@@ -1,0 +1,9 @@
+Program ini melakukan hal-hal berikut:
+
+1. Mendefinisikan struktur Data untuk menyimpan informasi nama dan alamat
+2. Mengimplementasikan fungsi bubbleSort yang mengurutkan array Data menggunakan metode Bubble Sort
+3. Mengimplementasikan fungsi selectionSort yang mengurutkan array Data menggunakan metode Selection Sort
+4. Membuat fungsi printData untuk mencetak data dari array Data dengan format yang rapi
+5. Menginisialisasi data awal dalam array Data sesuai dengan tabel yang diberikan
+6. Mengurutkan data menggunakan kedua metode sorting (bubbleSort dan selectionSort) dan menampilkan hasilnya dengan memanggil printData
+

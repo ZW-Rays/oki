@@ -1,0 +1,24 @@
+Penjelasan Code yang saya buat :
+
+1. function binarySearch
+Deskripsi: Fungsi ini mencari elemen target dalam array arr yang terurut dengan menggunakan metode pencarian biner.
+Variabel:
+left dan right menentukan batas kiri dan kanan dari bagian array yang sedang dicari.
+firstIndex dan lastIndex menyimpan indeks pertama dan terakhir dari target.
+Pencarian Indeks Pertama: Mencari target dari bagian kiri ke kanan, memperbarui firstIndex jika ditemukan, dan terus mencari di sebelah kiri untuk menemukan indeks pertama.
+Pencarian Indeks Terakhir: Mencari target dari bagian kiri ke kanan, memperbarui lastIndex jika ditemukan, dan terus mencari di sebelah kanan untuk menemukan indeks terakhir.
+Menampilkan Hasil: Menampilkan indeks pertama dan terakhir dari target jika ditemukan, atau pesan bahwa target tidak ada dalam array jika tidak ditemukan.
+
+2. function bubbleSort
+Deskripsi: Fungsi ini mengurutkan array arr yang memiliki n elemen menggunakan algoritma Bubble Sort.
+Loop pertama (i): Mengulang dari elemen pertama hingga elemen sebelum terakhir.
+Loop kedua (j): Membandingkan elemen bersebelahan dan menukarnya jika elemen saat ini lebih besar dari elemen berikutnya.
+Pertukaran: Menggunakan variabel sementara temp untuk menukar posisi elemen yang tidak terurut.
+
+3. function linearSearch
+Deskripsi: Fungsi ini mencari elemen target dalam array arr dengan metode Linear Search.
+Variabel:
+found menyimpan status apakah target telah ditemukan.
+Loop: Mengiterasi seluruh array untuk mencari target.
+Jika target ditemukan, mencetak indeks elemen tersebut. Jika sudah ditemukan sebelumnya, mencetak indeks tambahan dengan format yang sesuai.
+Menampilkan Hasil: Mencetak posisi target jika ditemukan, atau menyatakan bahwa target tidak ada dalam array jika tidak ditemukan.
